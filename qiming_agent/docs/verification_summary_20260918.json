@@ -1,0 +1,28 @@
+{
+  "verification_date": "2026-09-18",
+  "source_commit": "a9e348bb2208ec9e20070f7b19433bb082f910ea",
+  "unit_tests": 73,
+  "unit_test_failures": 0,
+  "task_regressions": 12,
+  "task_regressions_passed": 12,
+  "financial_facts": 168,
+  "physical_pdf_pages_visually_checked": 28,
+  "accounting_reconciliations": 24,
+  "accounting_reconciliations_passed": 24,
+  "ui_checks": [
+    "four_company_cards",
+    "cashflow_task",
+    "feedback_create",
+    "missing_year",
+    "self_review_blocked",
+    "second_person_publish",
+    "feedback_development_queue"
+  ],
+  "ui_js_errors": [],
+  "ui_method": "Chromium with explicit fetch test bridge to real localhost API; native navigation blocked",
+  "live_llm_calls": 0,
+  "live_embedding_calls": 0,
+  "live_public_download_confirmed": false,
+  "external_service_test_method": "httpx.MockTransport",
+  "status": "local prototype, not production deployment or real-user study"
+}
