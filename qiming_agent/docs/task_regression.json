@@ -1,0 +1,104 @@
+{
+  "mode": "offline deterministic workflow",
+  "cases": 12,
+  "passed": 12,
+  "not_claimed": "No live LLM/embedding evaluation or user outcome measurement.",
+  "results": [
+    {
+      "question": "公牛2024年三表核对",
+      "expected_status": "completed",
+      "actual_status": "completed",
+      "expected_skill": "statement_review",
+      "actual_skill": "statement_review",
+      "pass": true
+    },
+    {
+      "question": "公牛2024年现金流分析",
+      "expected_status": "completed",
+      "actual_status": "completed",
+      "expected_skill": "cashflow",
+      "actual_skill": "cashflow",
+      "pass": true
+    },
+    {
+      "question": "民爆光电2024年应收和存货观察",
+      "expected_status": "completed",
+      "actual_status": "completed",
+      "expected_skill": "working_capital",
+      "actual_skill": "working_capital",
+      "pass": true
+    },
+    {
+      "question": "兆驰2024年经营会议简报",
+      "expected_status": "completed",
+      "actual_status": "completed",
+      "expected_skill": "meeting_brief",
+      "actual_skill": "meeting_brief",
+      "pass": true
+    },
+    {
+      "question": "公牛和民爆2024年对比",
+      "expected_status": "completed",
+      "actual_status": "completed",
+      "expected_skill": "compare",
+      "actual_skill": "compare",
+      "pass": true
+    },
+    {
+      "question": "晶丰明源2023年现金流",
+      "expected_status": "completed",
+      "actual_status": "completed",
+      "expected_skill": "cashflow",
+      "actual_skill": "cashflow",
+      "pass": true
+    },
+    {
+      "question": "晶丰明源2024年现金流",
+      "expected_status": "insufficient_data",
+      "actual_status": "insufficient_data",
+      "expected_skill": "cashflow",
+      "actual_skill": "cashflow",
+      "pass": true
+    },
+    {
+      "question": "公牛现金流分析",
+      "expected_status": "needs_clarification",
+      "actual_status": "needs_clarification",
+      "expected_skill": "cashflow",
+      "actual_skill": "cashflow",
+      "pass": true
+    },
+    {
+      "question": "2024年三表核对",
+      "expected_status": "needs_clarification",
+      "actual_status": "needs_clarification",
+      "expected_skill": "statement_review",
+      "actual_skill": "statement_review",
+      "pass": true
+    },
+    {
+      "question": "公牛和晶丰2024年对比",
+      "expected_status": "insufficient_data",
+      "actual_status": "insufficient_data",
+      "expected_skill": "compare",
+      "actual_skill": "compare",
+      "pass": true
+    },
+    {
+      "question": "公牛2023年三表核对",
+      "expected_status": "completed",
+      "actual_status": "completed",
+      "expected_skill": "statement_review",
+      "actual_skill": "statement_review",
+      "pass": true
+    },
+    {
+      "question": "公牛2025年三表核对",
+      "expected_status": "insufficient_data",
+      "actual_status": "insufficient_data",
+      "expected_skill": "statement_review",
+      "actual_skill": "statement_review",
+      "pass": true
+    }
+  ]
+}

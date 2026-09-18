@@ -1,0 +1,101 @@
+[
+  {
+    "id": "method-cash",
+    "title": "现金流与利润：先观察，不直接归因",
+    "body": "经营活动现金流量净额来自现金流量表，合并净利润来自合并利润表。两者不是同一个指标。经营现金流/合并净利润仅在分母为正时展示；分母为零或负时说明不适用。\n\n收入上升而经营净现金流下降，只能形成核查线索，不能自动断言经营恶化、回款造假或供应商违约。应回查应收账款、存货与现金流附注；没有对应附注时明确写“原因待核实”。",
+    "source": "本项目方法说明；不替代会计准则",
+    "department": "research",
+    "status": "active",
+    "version": 1,
+    "topic": "method-cash",
+    "valid_from": "2020-01-01"
+  },
+  {
+    "id": "method-scope",
+    "title": "合并、归母和货币资金口径",
+    "body": "合并净利润包含少数股东损益，归母净利润不包含这部分。毛利率=(营业收入-营业成本)/营业收入；合并净利率=合并净利润/营业收入。\n\n资产负债表的货币资金不必等于现金流量表期末现金及现金等价物。受限资金等项目可能导致差异，不应自动将两者差额判为财报错误。",
+    "source": "本项目方法说明；不替代会计准则",
+    "department": "research",
+    "status": "active",
+    "version": 1,
+    "topic": "method-scope",
+    "valid_from": "2020-01-01"
+  },
+  {
+    "id": "method-units",
+    "title": "金额单位、年度和重述列",
+    "body": "金额单位必须明确：元、万元、亿元分别按一、一万、一亿换算。缺失保留为空，不当作零。\n\n资产负债表是时点数，利润表和现金流量表是期间数。表头有调整前和调整后时，必须人工确认使用列并保留报告版本；不能仅凭相同年份拼接。",
+    "source": "本项目方法说明；不替代会计准则",
+    "department": "research",
+    "status": "active",
+    "version": 1,
+    "topic": "method-units",
+    "valid_from": "2020-01-01"
+  },
+  {
+    "id": "method-comparability",
+    "title": "产业链样本对照与同业排名",
+    "body": "本项目包含终端电工与照明、商用工业灯具、显示及LED产业链、电源管理芯片等不同业务类型的观察样本。它们不能仅因都与照明有关就合并计算行业中位数或优秀程度排名。\n\n样本对照必须使用同一数值年度、货币和合并口径；对库存周转等比较还需确认业务结构。当前版本仅并列展示，不生成投资建议或采购准入结论。",
+    "source": "本项目方法说明；不替代会计准则",
+    "department": "research",
+    "status": "active",
+    "version": 1,
+    "topic": "method-comparability",
+    "valid_from": "2020-01-01"
+  },
+  {
+    "id": "method-working",
+    "title": "应收账款、存货和流动比率",
+    "body": "应收账款和存货上升可以作为进一步核查的线索。流动比率=流动资产/流动负债，分母须为正。\n\n期末存货/营业收入不是存货周转率。存货周转率通常需要期间营业成本和平均存货。本项目不在缺少平均数口径时冒用周转率名称。",
+    "source": "本项目方法说明；不替代会计准则",
+    "department": "research",
+    "status": "active",
+    "version": 1,
+    "topic": "method-working",
+    "valid_from": "2020-01-01"
+  },
+  {
+    "id": "method-gates",
+    "title": "简报发布与人工复核",
+    "body": "系统产出是待人工复核的经营观察稿。核对最新报告、重述列、单位、合并口径、附注依据和业务可比性后，再由相关负责人决定是否使用。\n\n模型可以帮助整理文字，但金额及比率由程序输出。不能让模型自动调整财务数字、供应商额度、付款计划或正式制度。",
+    "source": "本项目方法说明；不替代会计准则",
+    "department": "research",
+    "status": "active",
+    "version": 1,
+    "topic": "method-gates",
+    "valid_from": "2020-01-01"
+  },
+  {
+    "id": "procurement-v1",
+    "title": "【合成示例】供应商材料复核旧版",
+    "body": "【测试用合成制度，不是任何企业现行制度】旧版供应商资料只要求一份营业执照。",
+    "source": "项目合成测试数据",
+    "department": "procurement",
+    "status": "archived",
+    "version": 1,
+    "topic": "procurement-policy",
+    "valid_from": "2020-01-01"
+  },
+  {
+    "id": "procurement-v2",
+    "title": "【合成示例】供应商资料复核新版",
+    "body": "【测试用合成制度，不是任何企业现行制度】供应商资料应由采购人员核对营业执照、公开财报和质量资质；经营风险疑问提交负责人复核。系统只整理资料，不批准准入或付款。",
+    "source": "项目合成测试数据",
+    "department": "procurement",
+    "status": "active",
+    "version": 2,
+    "topic": "procurement-policy",
+    "valid_from": "2020-01-01"
+  },
+  {
+    "id": "draft-budget",
+    "title": "【合成示例】未发布预算权限草稿",
+    "body": "【测试草稿】预算调整需要特别审批。此文档处于待审核状态，不能出现在正式问答。",
+    "source": "项目合成测试数据",
+    "department": "procurement",
+    "status": "pending_review",
+    "version": 1,
+    "topic": "draft-budget",
+    "valid_from": "2020-01-01"
+  }
+]
