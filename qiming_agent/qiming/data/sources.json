@@ -1,0 +1,54 @@
+[
+  {
+    "source_id": "603195-2024",
+    "company": "603195",
+    "name": "公牛集团",
+    "segment": "终端电工与照明",
+    "year": 2024,
+    "file": "BULL/Bull 2024.pdf",
+    "sha256": "a99c2b87f0157db947574d0b037c9525741fccef41f32b2bd4ccf7eebe5f3ebc",
+    "pages": 237,
+    "status": "active",
+    "source_type": "用户提供公开年报副本",
+    "note": "历史示例，不代表当前最新披露；原PDF不随公开代码重新分发"
+  },
+  {
+    "source_id": "301362-2024",
+    "company": "301362",
+    "name": "民爆光电",
+    "segment": "商用工业照明灯具",
+    "year": 2024,
+    "file": "AGC/AGC 2024.pdf",
+    "sha256": "9ab88d024055ca057b25887d32080744922dc377b8cb279674a594ea1770c82c",
+    "pages": 183,
+    "status": "active",
+    "source_type": "用户提供公开年报副本",
+    "note": "历史示例，不代表当前最新披露；原PDF不随公开代码重新分发"
+  },
+  {
+    "source_id": "002429-2024",
+    "company": "002429",
+    "name": "兆驰股份",
+    "segment": "显示与LED产业链",
+    "year": 2024,
+    "file": "AMTC/AMTC 2024.pdf",
+    "sha256": "cf545291c92ce874b7162d58cd9bbb5f0f3d7876f0872570dcc5303f8b62b345",
+    "pages": 228,
+    "status": "active",
+    "source_type": "用户提供公开年报副本",
+    "note": "历史示例，不代表当前最新披露；原PDF不随公开代码重新分发"
+  },
+  {
+    "source_id": "688368-2023",
+    "company": "688368",
+    "name": "晶丰明源",
+    "segment": "电源管理芯片",
+    "year": 2023,
+    "file": "BPS/BPS 2023.pdf",
+    "sha256": "4b44750ec6d801f8ceccc67e650a123509968376ded30a7ab07cb5599d3dc852",
+    "pages": 272,
+    "status": "active",
+    "source_type": "用户提供公开年报副本",
+    "note": "历史示例，不代表当前最新披露；原PDF不随公开代码重新分发"
+  }
+]

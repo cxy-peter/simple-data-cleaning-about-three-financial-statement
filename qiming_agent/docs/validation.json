@@ -1,0 +1,198 @@
+{
+  "generated_at_utc": "2026-09-18T03:50:56.062270+00:00",
+  "python": "3.13.5",
+  "packages": {
+    "fastapi": "0.128.2",
+    "uvicorn": "0.48.0",
+    "httpx": "0.28.1",
+    "pydantic": "2.13.4",
+    "PyMuPDF": "1.26.7",
+    "pytest": "9.0.2"
+  },
+  "unit_tests": {
+    "total": 73,
+    "passed": 73
+  },
+  "task_regression": {
+    "total": 12,
+    "passed": 12
+  },
+  "financial_facts": 168,
+  "physical_pages_visually_checked": 28,
+  "reconciliations": [
+    {
+      "company": "603195",
+      "year": 2023,
+      "checks": [
+        {
+          "name": "资产=负债+权益",
+          "status": "pass",
+          "difference": "0.00"
+        },
+        {
+          "name": "现金变动=经营+投资+筹资+汇率",
+          "status": "pass",
+          "difference": "0.00"
+        },
+        {
+          "name": "期末现金=期初+净变动",
+          "status": "pass",
+          "difference": "0.00"
+        }
+      ]
+    },
+    {
+      "company": "603195",
+      "year": 2024,
+      "checks": [
+        {
+          "name": "资产=负债+权益",
+          "status": "pass",
+          "difference": "0.00"
+        },
+        {
+          "name": "现金变动=经营+投资+筹资+汇率",
+          "status": "pass",
+          "difference": "0.00"
+        },
+        {
+          "name": "期末现金=期初+净变动",
+          "status": "pass",
+          "difference": "0.00"
+        }
+      ]
+    },
+    {
+      "company": "301362",
+      "year": 2023,
+      "checks": [
+        {
+          "name": "资产=负债+权益",
+          "status": "pass",
+          "difference": "0.00"
+        },
+        {
+          "name": "现金变动=经营+投资+筹资+汇率",
+          "status": "pass",
+          "difference": "0.00"
+        },
+        {
+          "name": "期末现金=期初+净变动",
+          "status": "pass",
+          "difference": "0.00"
+        }
+      ]
+    },
+    {
+      "company": "301362",
+      "year": 2024,
+      "checks": [
+        {
+          "name": "资产=负债+权益",
+          "status": "pass",
+          "difference": "0.00"
+        },
+        {
+          "name": "现金变动=经营+投资+筹资+汇率",
+          "status": "pass",
+          "difference": "0.00"
+        },
+        {
+          "name": "期末现金=期初+净变动",
+          "status": "pass",
+          "difference": "0.00"
+        }
+      ]
+    },
+    {
+      "company": "002429",
+      "year": 2023,
+      "checks": [
+        {
+          "name": "资产=负债+权益",
+          "status": "pass",
+          "difference": "0.00"
+        },
+        {
+          "name": "现金变动=经营+投资+筹资+汇率",
+          "status": "pass",
+          "difference": "0.00"
+        },
+        {
+          "name": "期末现金=期初+净变动",
+          "status": "pass",
+          "difference": "0.00"
+        }
+      ]
+    },
+    {
+      "company": "002429",
+      "year": 2024,
+      "checks": [
+        {
+          "name": "资产=负债+权益",
+          "status": "pass",
+          "difference": "0.00"
+        },
+        {
+          "name": "现金变动=经营+投资+筹资+汇率",
+          "status": "pass",
+          "difference": "0.00"
+        },
+        {
+          "name": "期末现金=期初+净变动",
+          "status": "pass",
+          "difference": "0.00"
+        }
+      ]
+    },
+    {
+      "company": "688368",
+      "year": 2022,
+      "checks": [
+        {
+          "name": "资产=负债+权益",
+          "status": "pass",
+          "difference": "0.00"
+        },
+        {
+          "name": "现金变动=经营+投资+筹资+汇率",
+          "status": "pass",
+          "difference": "0.00"
+        },
+        {
+          "name": "期末现金=期初+净变动",
+          "status": "pass",
+          "difference": "0.00"
+        }
+      ]
+    },
+    {
+      "company": "688368",
+      "year": 2023,
+      "checks": [
+        {
+          "name": "资产=负债+权益",
+          "status": "pass",
+          "difference": "0.00"
+        },
+        {
+          "name": "现金变动=经营+投资+筹资+汇率",
+          "status": "pass",
+          "difference": "0.00"
+        },
+        {
+          "name": "期末现金=期初+净变动",
+          "status": "pass",
+          "difference": "0.00"
+        }
+      ]
+    }
+  ],
+  "live_llm_calls": 0,
+  "live_embedding_calls": 0,
+  "live_public_download_confirmed": false,
+  "network_tests": "httpx.MockTransport",
+  "browser_test": "Chromium UI with fetch bridge to real local FastAPI; localhost browser policy blocked native navigation",
+  "scope": "Local prototype, not original Wenshu microservice end-to-end validation or a real user study."
+}
